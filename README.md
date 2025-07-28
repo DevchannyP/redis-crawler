@@ -33,8 +33,6 @@
 🎉 최종 쇼츠 영상 생성 완료
 
 yaml
-복사
-편집
 
 ---
 
@@ -62,8 +60,6 @@ redis-crawler/
 │ └── final/ # 최종 영상
 
 markdown
-복사
-편집
 
 ---
 
@@ -116,8 +112,6 @@ whisper_transcribe.py input.mp4 output.srt
 FFmpeg 명령 예시:
 
 bash
-복사
-편집
 ffmpeg -i input.mp4 -vf setpts=0.75*PTS -af atempo=1.25 -ss 00:00:03 -t 00:00:15 output.mp4
 편집 기준:
 
@@ -142,8 +136,6 @@ HTTP 요청: /v1/text:synthesize 엔드포인트
 명령어 구성:
 
 bash
-복사
-편집
 ffmpeg -i video.mp4 -i voice.mp3 -c:v copy -c:a aac -shortest output.mp4
 주의: 오디오는 AAC로 인코딩, 길이 맞춤 옵션 -shortest 사용
 
@@ -153,8 +145,6 @@ ffmpeg -i video.mp4 -i voice.mp3 -c:v copy -c:a aac -shortest output.mp4
 FFmpeg 명령 예시:
 
 bash
-복사
-편집
 ffmpeg -i input.mp4 -vf subtitles=sub.srt output_with_subs.mp4
 출력 위치: final/ 디렉토리에 저장됨
 
@@ -185,8 +175,6 @@ Blog: https://devchannyp-github-io.pages.dev/
 “Redis Crawler는 Reddit 콘텐츠를 자막, 음성, 편집을 거쳐 완전 자동화 영상으로 재탄생시키는 Java 기반 AI 영상 생성 시스템입니다. (코드는 보안·정책상 비공개)”
 
 yaml
-복사
-편집
 
 ---
 
