@@ -46,7 +46,7 @@ Whisper 기반 STT 자막 생성 → Google TTS 음성 생성 → FFmpeg 편집�
 
 📸 예시 이미지:
 
-![게시물 수집 예시](https://raw.githubusercontent.com/DevchannyP/redis-crawler/main/redis-crawler/c1.webp)
+![게시물 수집 예시](https://raw.githubusercontent.com/DevchannyP/redis-crawler/main/c1.webp)
 
 ```java
 List<Map<String, String>> redditPosts = metaSearcher.fetchVideoPostsFromSubreddit("all");
@@ -61,7 +61,7 @@ List<Map<String, String>> redditPosts = metaSearcher.fetchVideoPostsFromSubreddi
 
 📸 다운로드 동작 예시:
 
-![영상 다운로드 예시](https://raw.githubusercontent.com/DevchannyP/redis-crawler/main/redis-crawler/c2.webp)
+![영상 다운로드 예시](https://raw.githubusercontent.com/DevchannyP/redis-crawler/main/c2.webp)
 
 ```bash
 yt-dlp -f bestvideo+bestaudio --merge-output-format mp4 -o "경로/파일명.mp4" URL
@@ -76,7 +76,7 @@ yt-dlp -f bestvideo+bestaudio --merge-output-format mp4 -o "경로/파일명.mp4
 
 📸 폴더 구조 예시:
 
-![영상 폴더 구조](https://raw.githubusercontent.com/DevchannyP/redis-crawler/main/redis-crawler/c3.webp)
+![영상 폴더 구조](https://raw.githubusercontent.com/DevchannyP/redis-crawler/main/c3.webp)
 
 ```
 output/
@@ -96,7 +96,7 @@ output/
 
 📸 영상 수집/처리 결과:
 
-![자동 수집된 영상 예시](https://raw.githubusercontent.com/DevchannyP/redis-crawler/main/redis-crawler/c4.webp)
+![자동 수집된 영상 예시](https://raw.githubusercontent.com/DevchannyP/redis-crawler/main/c4.webp)
 
 ---
 
